@@ -1,0 +1,29 @@
+# Setup
+title:               Nameless
+tagline:             'There are only two hard things in Computer Science'
+description:         'This is the description'
+url:                 https://blog.mandre.org
+baseurl:             ''
+paginate:            5
+github_username:  mandre
+
+# About/contact
+author:
+  name:              Martin André
+  url:               https://github.com/mandre
+
+# Custom vars
+version:             1.0.0
+
+# jekyll-archives:
+#   enabled:
+#     - year
+#   layout: 'archives'
+#   permalinks:
+#     year: '/:year/'
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-coffeescript
