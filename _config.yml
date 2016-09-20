@@ -15,13 +15,6 @@ author:
 # Custom vars
 version:             1.0.0
 
-# jekyll-archives:
-#   enabled:
-#     - year
-#   layout: 'archives'
-#   permalinks:
-#     year: '/:year/'
-
 # Gems
 gems:
   - jekyll-paginate

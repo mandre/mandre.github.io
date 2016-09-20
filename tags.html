@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Archives
+title: Tags
 ---
 
 {% assign rawtags = "" %}
@@ -22,30 +22,20 @@ title: Archives
   {% endif %}
 {% endfor %}
 
-<h1>Archives</h1>
-
-{% for tag in tags %}
-<a href="/tags.html#{{ tag | slugify }}" class="post-tag"> {{ tag }} </a>
-{% endfor %}
+<h1>Tags</h1>
 
 <section id="archive">
-  {%for post in site.posts %}
-    {% unless post.next %}
-  <h3>{{ post.date | date: '%Y' }}</h3>
+{% for tag in tags %}
+<h2 id="{{ tag | slugify }}">{{ tag }}</h2>
   <table>
-    {% else %}
-      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-      {% if year != nyear %}
-  </table>
-  <h3>{{ post.date | date: '%Y' }}</h3>
-  <table>
-      {% endif %}
-    {% endunless %}
+  {% for post in site.posts %}
+  {% if post.tags contains tag %}
   <tr>
-    <td width=14%><span class="post-date-archive">{{ post.date | date:"%d %b" }}</span></td>
+    <td width=25%><span class="post-date-archive">{{ post.date | date_to_string }}</span></td>
     <td><a href="{{ post.url }}">{{ post.title }}</a></td>
   </tr>
-  {% endfor %}
   </table>
+  {% endif %}
+  {% endfor %}
+{% endfor %}
 </section>
