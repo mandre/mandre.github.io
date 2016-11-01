@@ -2,7 +2,7 @@
 title:               Nameless
 tagline:             'There are only two hard things in Computer Science'
 description:         'This is the description'
-url:                 https://blog.mandre.org
+url:                 http://blog.mandre.org
 baseurl:             ''
 paginate:            5
 github_username:  mandre
