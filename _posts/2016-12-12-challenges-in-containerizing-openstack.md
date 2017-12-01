@@ -2,7 +2,7 @@
 layout: post
 title:  "Challenges in containerizing OpenStack"
 date:   2016-12-12
-tags:   [containers, openstack]
+tags:   [containers, openstack, presentation]
 ---
 
 A presentation I made for the first edition of [OpenStack Day
