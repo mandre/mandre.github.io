@@ -28,7 +28,7 @@ First we need to get the `Change-Id`:
 change_id=$(git log -n1 --pretty=format:%b $commit | awk '/Change-Id:/ {print $0}')
 ```
 
-With this `Commit-Id` we can now verify if it was merged or not in the current
+With this `Change-Id` we can now verify if it was merged or not in the current
 branch:
 
 ```bash

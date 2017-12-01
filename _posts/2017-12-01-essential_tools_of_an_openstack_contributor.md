@@ -12,7 +12,7 @@ about the tools we use in the OpenStack community to contribute to the project.
 My talk covered the different kinds of contribution and highlighted some of the
 lesser known -- but essential -- tools available, giving tips and tricks learned
 from years of practice. I hope both the casual contributor and the more
-experienced one can find nuggets useful information in this presentation.
+experienced one can find useful nuggets of information in this presentation.
 
 <center>
   <iframe src="https://drive.google.com/file/d/1a3R4C-iVC8i2PaC3ckIB96f80ZT_O-WL/preview" width="640" height="403"></iframe>
