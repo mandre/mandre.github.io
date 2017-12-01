@@ -267,13 +267,17 @@ a.sidebar-nav-item:focus {
 }
 
 .social_buttons {
-  font-size: 200%;
   position: absolute;
   bottom:  3.5rem;
   left: 3.2rem;
 }
+
+.social_buttons a {
+  color: rgba(255,255,255,.6);
+}
+
 .social_buttons a:hover {
-  color: rgba(255,255,255,.4);
+  color: #FFF;
   text-decoration: none;
 }
 
