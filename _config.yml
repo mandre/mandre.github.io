@@ -16,7 +16,7 @@ author:
 version:             1.0.0
 
 # Gems
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-gist
   - jekyll-coffeescript
