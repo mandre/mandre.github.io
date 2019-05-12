@@ -86,7 +86,7 @@ git clone git@github.com:KanoComputing/make-snake.git
 ```
 
 Download the .po file, for example [for
-French](https://translate.zanata.org/rest/file/translation/make-snake/Beta-v4.2.0/fr/po?docId=messages),
+French](https://translate.zanata.org/rest/file/translation/make-snake/3.14.0-0.20171205/fr/po?docId=messages),
 and copy it to the `po` directory as `fr.po`. The file name has to match the
 language code. Finally run `make` from the `po` directory:
 
