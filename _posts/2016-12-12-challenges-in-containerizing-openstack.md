@@ -11,5 +11,5 @@ some of the challenges faced by the Kolla project in its effort to containerize
 OpenStack:
 
 <center>
-  <iframe src="https://drive.google.com/file/d/0B4fQIxKt4Sz9b1BVZ1lRdHUtaDg/view?resourcekey=0-dylFJgpv1GfF2dBu4PxyHg" width="640" height="480"></iframe>
+  <iframe src="https://drive.google.com/file/d/0B4fQIxKt4Sz9b1BVZ1lRdHUtaDg/preview?resourcekey=0-dylFJgpv1GfF2dBu4PxyHg" width="640" height="480"></iframe>
 </center>
